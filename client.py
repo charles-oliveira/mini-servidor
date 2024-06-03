@@ -12,7 +12,7 @@ def fetch_content(url):
         print(f"Erro ao tentar acessar {url}: {e}")
 
 if __name__ == '__main__':
-    base_url = 'http://192.168.3.2:3000'  
+    base_url = 'http://<colocar seu ip>:3000'  
     endpoints = ['', '404', '500']
 
     for endpoint in endpoints:
